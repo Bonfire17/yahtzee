@@ -8,9 +8,10 @@ public class start extends JFrame {
 	
 	public static void main(String[] args){
 		x = new JFrame();
-		x.setSize(1000, 700);
+		x.setSize(700, 450);
 		x.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		x.setResizable(false);
+		x.setTitle("Yahtzee");
 		x.setContentPane(new paneel());
 		x.setVisible(true);
 	}
